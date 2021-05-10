@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_pekora">
+
+    <fragment
+        android:id="@+id/navigation_pekora"
+        android:name="com.example.youtube_fragment_test.ui.Pekora.PekoraFragment"
+        android:label="@string/pekora"
+        tools:layout="@layout/fragment_pekora" />
+
+    <fragment
+        android:id="@+id/navigation_mikochi"
+        android:name="com.example.youtube_fragment_test.ui.Mikochi.MikochiFragment"
+        android:label="@string/mikochi"
+        tools:layout="@layout/fragment_mikochi" />
+
+    <fragment
+        android:id="@+id/navigation_subaru"
+        android:name="com.example.youtube_fragment_test.ui.Subaru.SubaruFragment"
+        android:label="@string/subaru"
+        tools:layout="@layout/fragment_subaru" />
+</navigation>

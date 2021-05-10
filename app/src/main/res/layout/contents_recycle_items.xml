@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_layout_one_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@android:color/white"
+    android:elevation="4dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/thumbnail_view"
+            android:layout_width="640px"
+            android:layout_height="480px" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100"
+        android:background="#cef"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="0dp"
+            android:textColor="#00f"
+            android:textSize="10sp" />
+        <!--動画詳細説明-->
+        <!--        <TextView-->
+        <!--            android:id="@+id/description_view"-->
+        <!--            android:textSize="1sp"-->
+        <!--            android:textColor="#000"-->
+        <!--            android:layout_gravity="center_vertical"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content" />-->
+    </LinearLayout>
+
+
+    <!--    <FrameLayout-->
+    <!--        android:id="@+id/youtube_holder"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="@color/DarkRed"-->
+    <!--        android:visibility="visible" />-->
+
+</LinearLayout>
